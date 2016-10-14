@@ -112,7 +112,7 @@ class SoapClient {
                 this.result ~= cast(const(char)[])data;
                 return data.length;
             };
-            HTTPClient.perform;
+            HTTPClient.perform();
         } catch (Exception e) {
             writefln("FATAL ERROR %s", e.msg);
             return;
