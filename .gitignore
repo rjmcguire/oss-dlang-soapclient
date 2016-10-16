@@ -1,4 +1,7 @@
-Makefile
-test*
 *.o
-*.html
+*.obj
+.dub
+Makefile
+__dummy.html
+docs.json
+test*

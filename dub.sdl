@@ -1,0 +1,5 @@
+name "soapclient"
+description "A simple client to connect to and interact with SOAP services."
+copyright "Copyright © 2016, Jethro Van Thuyne"
+authors "Jethro Van Thuyne"
+license "MIT"
